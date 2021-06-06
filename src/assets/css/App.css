@@ -1,0 +1,171 @@
+.App {
+  width: 100%;
+  height:1200px;
+  background-color: rgb(255, 215, 248);
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.container{
+  width: 40%;
+  height: auto;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30%;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
+.list_title{
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.search_title{
+  font-size: 16px;
+}
+.input_search{
+  width: 60%;
+  height: 25px;
+  margin-bottom:15px;
+  border: gainsboro 1px solid;
+}
+.input_search:focus{
+  outline: 2px solid pink;
+  
+}
+ul li{
+  list-style: none;
+}
+.underway_li{
+  margin-top: 10px;
+}
+.waittodo_li{
+  margin-top: 10px;
+}
+.btn_new_show{
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100px;
+  height:35px;
+  background-color: rgb(253, 209, 217);
+  border: 1px solid rgb(253, 157, 205);
+  border-radius: 5px;
+  color: rgb(247, 126, 146);
+  display: block;
+}
+.btn_new_hide{
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100px;
+  height:35px;
+  background-color: rgb(253, 209, 217);
+  border: 1px solid rgb(253, 157, 205);
+  border-radius: 5px;
+  color: rgb(247, 126, 146);
+  display: none;
+}
+.input_new{
+  width: 50%;
+  height: 30px;
+  border: gainsboro 1px solid;
+  margin-left: 5px;
+}
+.input_new::placeholder{
+  color: rgb(170, 167, 167);
+}
+.input_new:focus{
+  outline: 2px solid pink;
+  
+}
+.btn_new2{
+  cursor: pointer;
+  width: 100px;
+  height:34px;
+  background-color: rgb(253, 209, 217);
+  border: 1px solid rgb(253, 157, 205);
+  border-radius: 5px;
+  color: rgb(247, 126, 146);
+  margin-left: 10px;
+}
+.btn_new2:hover{
+  border: 2px solid hotpink;
+}
+.div_new_hide{
+  display: none;
+}
+.div_new_show{
+  display: block;
+}
+.div_checkbox{
+  width: 25px;
+  height: 25px;
+  border-radius:50%;
+  border: 1px solid pink;
+  background-color: white;
+  cursor: pointer;
+}
+.div_checkbox nobr{
+  margin-left: 40px;
+}
+.div_checked nobr{
+  margin-left: 40px;
+}
+
+.input_checkbox{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.input_checkbox:checked+div{
+  width: 25px;
+  height: 25px;
+  border-radius:50%;
+  background: url(../images/checked.png) no-repeat pink;
+  cursor: pointer;
+}
+.input_checkbox:checked+div nobr{
+  text-decoration: line-through;
+  color: rgb(219, 166, 175);
+}
+.btn_del{
+  width: 60px;
+  height: 25px;
+  border: 1px solid pink;
+  background: white;
+  display: flex;
+  float: right;
+  margin-top: -30px;
+  margin-right: 90px;
+  display: none;
+  cursor: pointer;
+}
+li{
+  cursor: pointer;
+}
+li:hover .btn_del{
+  display: block;
+}
+.btn_move{
+  width: 140px;
+  height: 25px;
+  border: 1px solid pink;
+  background: white;
+  display: flex;
+  float: right;
+  margin-top: -30px;
+  margin-right: 160px;
+  display: none;
+  cursor: pointer;
+}
+li:hover .btn_move{
+  display: block;
+}
+.p_bottom{
+  margin-top: 20px;
+}
+.highlight_y{
+  color: red;
+}
